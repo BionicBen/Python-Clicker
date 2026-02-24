@@ -11,6 +11,7 @@ A simple autoclicker made in Python with Left/Right Mouse Button functionality, 
 3. Run the included Download_Python3_Then_Run_This_First_One_Time.bat file to install the Pynput module.
 4. Run the included launch.bat file to start the program.
 5. Select "1" to set up your initial settings. Use your selected toggle key to start the clicker after completing the initial setup.
+6. To use the program again in the future, you only have to run the launch.bat file and can select "2" upon startup to use your saved settings.
 
 ## Features
 - Toggle Key: Key used to toggle the clicker on or off.
