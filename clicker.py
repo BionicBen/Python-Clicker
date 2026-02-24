@@ -257,7 +257,7 @@ def clicker():
             if (not(buttons_enabled == 1) and (clicking and active_right_clicks > 0)):
                 mouse.click(Button.right, 1)
             time.sleep(round(1 / active_cps, 5))
-    if (cps_mode == 1 and mouse_held == 2): # Static, No Mouse Held
+    elif (cps_mode == 1 and mouse_held == 2): # Static, No Mouse Held
         while True:
             if (not(buttons_enabled == 2) and (clicking)):
                 mouse.click(Button.left, 1)
@@ -315,5 +315,6 @@ def hold_mouse(x, y, button, pressed):
         else:
             #print("Right mouse button up")
             active_right_clicks = active_right_clicks - 1
+
 
 main()
